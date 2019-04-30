@@ -62,7 +62,7 @@ body
 {
       background-image: url(image/fond.jpg);
       background-size: cover;   
-      border: 3px dotted rgb(212, 208, 200);
+      border-radius: 20px;
       margin-bottom: 2em;
       width: 600px;
       margin: auto;
