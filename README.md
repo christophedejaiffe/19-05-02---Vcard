@@ -157,4 +157,6 @@ footer
 
 Résultat :
 
+<img src="image/exemple.jpg" width="200"/>
+
 ![Vcard](image/exemple.jpg = 300x)
