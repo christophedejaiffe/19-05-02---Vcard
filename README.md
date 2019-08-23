@@ -155,8 +155,8 @@ footer
 ```
 </details>
 
-Résultat :
+## Résultat :
 
-<img src="image/exemple.jpg" width="200"/>
+<img src="image/exemple.jpg" width="400"/>
 
-![Vcard](image/exemple.jpg = 300x)
+
