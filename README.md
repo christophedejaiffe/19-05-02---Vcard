@@ -13,6 +13,7 @@
 ### Partie HTML
 <details>
 <summary>Fichier HTML</summary>
+    
 ```markdown
 <!DOCTYPE html>
 <html lang="fr">
@@ -53,6 +54,104 @@
 <details>
 <summary>Fichier CSS</summary>
 ```markdown
-Exemple css
+/*police*/
+
+@font-face 
+{
+  font-family: 'amerika_sansregular';
+  src: url('fonts/amerikasans/VAMERSN__-webfont.eot');
+  src: url('fonts/amerikasans/AMERSN__-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/amerikasans/AMERSN__-webfont.woff2') format('woff2'),
+       url('fonts/amerikasans/AMERSN__-webfont.woff') format('woff'),
+       url('fonts/amerikasans/AMERSN__-webfont.ttf') format('truetype'),
+       url('fonts/amerikasans/AMERSN__-webfont.svg#amerika_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/*mise en page global*/
+
+.container 
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr auto;
+    min-width: 200px;
+}
+
+main 
+{
+    margin: auto;
+}
+
+/*positions*/
+
+#logo
+{
+    grid-column: 1; 
+    grid-row: 2;
+  }
+
+#presentation 
+{
+    padding-top: 10%;
+    grid-column: 2; 
+    grid-row: 2;
+}
+
+footer 
+{
+    grid-column: 1 / span 2; 
+    grid-row: 3;
+}
+  
+  
+/* Decoration */
+  
+* {box-sizing: border-box}
+  
+body 
+{
+      margin: 20px;
+      background: #fff;
+      font-family: "amerika_sansregular", helvetica, arial, sans-serif;
+      font-size: 1.2em;
+}
+
+.container 
+{
+      background-image: url(image/fond.jpg);
+      background-size: cover;   
+      border-radius: 20px;
+      margin-bottom: 2em;
+      width: 600px;
+      margin: auto;
+}
+div, nav, section, article, aside, header, footer 
+{
+      padding: 10px;
+      color: #fff;
+}
+#logo 
+{
+        width: 200px;  
+    
+}
+#presentation 
+{
+    padding-right: 10%;
+    text-align: right;
+    width: 360px;
+}
+
+footer 
+{
+    width: 560px;
+    word-spacing: 50px;
+  
+}
 ```
 </details>
+
+Résultat :
