@@ -157,4 +157,4 @@ footer
 
 Résultat :
 
-![40% center](images/Exemple.jpg
+![40% center](image/exemple.jpg
