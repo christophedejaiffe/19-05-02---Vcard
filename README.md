@@ -157,4 +157,4 @@ footer
 
 Résultat :
 
-![40% center](image/exemple.jpg)
+![Vcard](image/exemple.jpg = 300x)
