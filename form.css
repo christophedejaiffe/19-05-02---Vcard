@@ -21,7 +21,12 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto 1fr auto;
-    height: 300px;
+    min-width: 200px;
+}
+
+main 
+{
+    margin: auto;
 }
 
 /*positions*/
