@@ -53,6 +53,7 @@
 ### Partie CSS
 <details>
 <summary>Fichier CSS</summary>
+    
 ```markdown
 /*police*/
 
@@ -155,3 +156,5 @@ footer
 </details>
 
 Résultat :
+
+![40% center](images/Exemple.jpg
