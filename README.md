@@ -3,7 +3,7 @@
 ## Création d'une Vcard
 ---
 
-# Les langages et outils utilisés 
+### Les langages et outils utilisés 
 
 * HTML5
 * CSS3
@@ -14,7 +14,45 @@
 <details>
 <summary>Fichier HTML</summary>
 ```markdown
-Placer l’ exemple HTML
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Vcard</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div id="logo">
+                <img src="image/logoCDW.png" alt="Logos">
+            </div>
+            <div id="presentation">
+                <p>Dejaiffe Christophe</p>
+                <p>Programmeur Web Junior</p>
+                <p>Tel : 0470542256</p>
+                <p>4 rue des Ecoles, 6250 Aiseau</p>
+            </div>
+            <footer>
+                <a href="https://github.com/christophedejaiffe" target="_blank" style="color: white;"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/christophe-dejaiffe/" target="_blank" style="color: white;"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/chrisophe.dejaiffe" target="_blank" style="color: white;"><i class="fab fa-facebook-f"></i></a>
+                <a href="mailto:cdejaiffe@gmail.com" target="_blank" style="color: white;"><i class="fas fa-envelope"></i></a>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>
 ```
 </details>
 
+### Partie CSS
+<details>
+<summary>Fichier CSS</summary>
+```markdown
+Exemple css
+```
+</details>
